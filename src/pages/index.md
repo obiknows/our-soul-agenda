@@ -1,14 +1,14 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Our Soul Agenda
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Listen to the inner you, find your purpose.
+subheading: Comfort is a killer, be on purpose.
 mainpitch:
-  title: Why Kaldi
+  title: Welcome to Our Soul Agenda
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
+    Our Soul Agenda is the platform for everyone who believes in themselves and the power
+    of our dreams to transform their lifes journey. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 description: >-
