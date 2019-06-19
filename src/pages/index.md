@@ -1,16 +1,14 @@
 ---
 templateKey: index-page
 title: Our Soul Agenda
-image: /img/home-jumbotron.jpg
+image: /img/our-soul-agenda-home-jumbotron.jpg
 heading: Listen to the inner you, find your purpose.
 subheading: Comfort is a killer, be on purpose.
 mainpitch:
   title: Welcome to Our Soul Agenda
   description: >
     Our Soul Agenda is the platform for everyone who believes in themselves and the power
-    of our dreams to transform their lifes journey. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    of our dreams to transform their lifes journey. 
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent has-background-black	"
+        className="navbar is-transparent has-background-black"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -59,27 +59,24 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item has-text-white" to="/about">
+            <div className="navbar-start has-text-centered" >
+              <Link className="navbar-item" to="/about" style={{ color: 'white' }}  activeStyle={{ color: "#FC882A" }}>
+                About
+              </Link>
+              <Link className="navbar-item" to="/products" style={{ color: 'white' }} activeStyle={{ color: "#FC882A" }}>
                 Shop
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
+              <Link className="navbar-item" to="/products" style={{ color: 'white' }} activeStyle={{ color: "#FC882A" }}>
+                Our Gear
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to="/blog" style={{ color: 'white' }} activeStyle={{ color: "#FC882A" }}>
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Shop
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              <Link className="navbar-item" to="/contact/examples" style={{ color: 'white' }} activeStyle={{ color: "#FC882A" }}>
                 Videos
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                About
+              <Link className="navbar-item" to="/contact" style={{ color: 'white' }} activeStyle={{ color: "#FC882A" }}>
+                Contact
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
