@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import instgram from '../img/social/instagram.svg'
+import youtube from '../img/social/youtube.svg'
+// import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -80,14 +82,26 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
+              {/* Instagram Logo */}
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://instagram.com/oursoulagenda"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={instgram}  alt="Instagram" />
+                </span>
+              </a>
+              {/* YouTube logo */}
+              <a
+                className="navbar-item"
+                href="https://www.youtube.com/channel/UC14DDaQZouxfsTxHhXxF0sg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={youtube}  alt="YouTube" />
                 </span>
               </a>
             </div>
