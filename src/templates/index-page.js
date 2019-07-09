@@ -16,8 +16,9 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet" ></link>
     <div
-      className="full-width-image margin-top-0"
+      className="home-hero-image full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -72,7 +73,11 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title" 
+                        style={{
+                          fontFamily: 'DM Serif Display',
+                        }}
+                    >{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>

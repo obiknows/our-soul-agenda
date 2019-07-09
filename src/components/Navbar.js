@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import instgram from '../img/social/instagram.svg'
+import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
-// import github from '../img/github-icon.svg'
+
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -90,7 +90,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={instgram}  alt="Instagram" />
+                  <img src={instagram}  alt="Instagram" />
                 </span>
               </a>
               {/* YouTube logo */}
