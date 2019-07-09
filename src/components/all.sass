@@ -10,6 +10,10 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+
+.navbar-menu
+  background-color: #2B2523 !important
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -132,6 +136,10 @@ $menu-label-color: $white-ter
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+  .home-hero-image
+    background-position: top !important
+
+
 
 +mobile
   .blog-list-item header
@@ -140,3 +148,9 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .home-hero-image
+    background-position: top !important
+
+@media (max-width: 1044px)
+  .home-hero-image
+    background-position: top !important
